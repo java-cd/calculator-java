@@ -5,6 +5,11 @@ double num1 = Integer.parseInt(args[1]);
 double num2 = Integer.parseInt(args[2]);
 double sum = num1 + num2;
 System.out.println(sum);
-}
+}else if (args[0].equals("subtraction")) { 
+double num1 = Integer.parseInt(args[1]);
+double num2 = Integer.parseInt(args[2]);
+double sum = num1 - num2; 
+System.out.println(sum);
+} 
 }
 }
